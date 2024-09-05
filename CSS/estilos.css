@@ -1,0 +1,147 @@
+*{margin: 0px;}
+.cuadrosombrero{
+    width: 80px;height: 50px;
+    background-color: blue;
+    position: relative;
+    top: 50px;
+    left: 500px;
+}
+.sombrero{
+    width: 200px;height: 15px;
+    background-color: aqua;
+    position: relative;
+    top: 40px;
+    left: 445px;
+    border-radius: 90px;
+}
+.cabeza{
+    width: 100px;height: 100px;
+    background-color: white;
+    position: relative;
+    top: 40px;
+    left: 490px;
+    border-radius: 100%;
+    border-color: black;
+    border-style: solid;
+}
+.ojoderecho{
+    width: 20px;height: 20px;
+    background-color: white;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border-radius: 100%;
+    border-color: black;
+    border-style: solid;
+}
+.ojoizquierdo{
+    width: 20px;height: 20px;
+    background-color: white;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    border-radius: 100%;
+    border-color: black;
+    border-style: solid;
+}
+.nariz{
+    width: 40px;height: 5px;
+    background-color: orange;
+    position: absolute;
+    left: 30px;
+    bottom: 45px;
+    /* border-radius: 100%; */
+    border-color: orange;
+    border-style: solid;
+}
+.boca{
+    width: 50px;height: 5px;
+    background-color: orange;
+    position: absolute;
+    left: 28px;
+    bottom: 15px;
+    /* border-radius: 100%; */
+    border-color: orange;
+    border-style: solid;
+}
+.torso{
+    width: 150px;height: 150px;
+    background-color: white;
+    position: relative;
+    top: 40px;
+    left: 470px;
+    border-radius: 100%;
+    border-color: black;
+    border-style: solid;
+}
+.primero{
+    width: 20px;height: 20px;
+    background-color: white;
+    position: relative;
+    left: 60px;
+    top: 5px;
+    border-radius: 100%;
+    border-color: black;
+    border-style: solid;
+}
+.segundo{
+    width: 20px;height: 20px;
+    background-color: white;
+    position: relative;
+    left: 60px;
+    top: 25px;
+    border-radius: 100%;
+    border-color: black;
+    border-style: solid;
+}
+.tercero{
+    width: 20px;height: 20px;
+    background-color: white;
+    position: relative;
+    left: 60px;
+    top: 45px;
+    border-radius: 100%;
+    border-color: black;
+    border-style: solid;
+}
+.piernas{
+    width: 250px;height: 150px;
+    background-color: white;
+    position: relative;
+    top: 40px;
+    left: 430px;
+    border-radius: 100%;
+    border-color: black;
+    border-style: solid;
+}
+.texto{
+    color: orange;
+    font-size: small;
+    width: 50px; height: 50px;
+
+    position: relative;
+    top: 50px;
+    bottom: 50px;
+    left: 25px;
+    
+}
+.brazoizquierdo{
+    width: 200px;height: 20px;
+    background-color: white;
+    position: absolute;
+    rotate: 40deg;
+    top: 200px;
+    left: 300px;
+    border-color: black;
+    border-style: solid;
+}
+.brazoderecho{
+    width: 200px;height: 20px;
+    background-color: white;
+    position: absolute;
+    rotate: -45deg;
+    top: 200px;
+    left: 600px;
+    border-color: black;
+    border-style: solid;
+}
